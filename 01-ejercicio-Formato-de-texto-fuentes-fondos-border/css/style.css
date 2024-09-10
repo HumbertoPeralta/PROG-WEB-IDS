@@ -1,0 +1,23 @@
+
+.fondo-verde {
+    background-color: rgb(89, 247, 115);
+
+}
+
+#titulo-principal{
+    color: rgb(95, 95, 95);
+}
+
+#puntos{
+    border-width: 5px;
+    border-style: solid;
+}
+
+.fondo{
+    background-color: burlywood;
+}
+
+#conclusion{
+    font-family: sans-serif;
+    font-size: 18px;
+}
