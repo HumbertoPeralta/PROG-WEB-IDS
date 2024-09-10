@@ -9,5 +9,5 @@ HTML
 3. [03-ejercicio-Formularios-metadatos](/03-ejercicio-Formularios-metadatos/index.HTML)
 <br>
 CSS
-<br>
-1. [01-ejercicio-Formato-de-texto-fuentes-fondos-border](/01-ejercicio-Formato-de-texto-fuentes-fondos-border/index.HTML)
+<br />
+1 [01-ejercicio-Formato-de-texto-fuentes-fondos-border](/01-ejercicio-Formato-de-texto-fuentes-fondos-border/index.HTML)
