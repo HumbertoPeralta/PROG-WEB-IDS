@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: 'Arial';
+  }
+
+.titulo-tarjeta{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.tarjeta {
+    width: 400px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 1%;
+  }
+  
+.imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+.contenido {
+    padding: 20px;
+  }
+  
+.descripcion {
+    font-size: 16px;
+    color: #000000;
+  }
+  
+.boton{
+    background-color: hsl(51, 47%, 65%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: #f5f5f5;
+    font-size: 16px;
+  }
+  
