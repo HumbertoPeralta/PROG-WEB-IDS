@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclases</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="#">
+        <h2>Formulario de contacto</h2>
+        <label for="nombre">Nombre de usuario:</label> 
+        <input id="nombre" class="input-text" type="text" name="user" placeholder="Ingresa un nombre de usuario">
+
+        <br>
+
+        <label for="email">Correo electrónico</label>
+        <input id="email" class="input-text" type="email" placeholder="Ingresa tu correo electrónico">
+        <label for="nombre">Mensaje </label> 
+        <textarea id="nombre" class="input-text" type="text" placeholder="Escribe tu Mensaje"></textarea>
+
+        <br>
+
+        <label for="opciones">Motivo de contacto</label>
+        <select class="input-text" name="opciones", id="opciones">
+            <optgroup>
+                <option value="info">Información</option>
+                <option value="ayuda">Ayuda</option>
+                <option value="nutricion">Consulta sobre nutrición</option>
+                <option value="ejercicio">Rutinas de ejercicio</option>
+                <option value="prevencion-enfermedades">Prevención de enfermedades</option>
+                <option value="higiene">Cuidados de higiene</option>
+            </optgroup>
+        </select>
+
+        <br>
+
+        <label id="tema-salud">Escribe o selecciona un tema que sugieras ver:</label>
+        <input class="input-text" list="temas-salud" id="tema-salud" name="tema-salud" placeholder="Selecciona un tema">
+        <datalist id="temas-salud">
+            <option value="Nutrición balanceada">
+            <option value="Ejercicio regular">
+            <option value="Higiene personal">
+            <option value="Descanso adecuado">
+            <option value="Salud mental">
+        </datalist>
+
+        <br><br><br><br>
+        <button type="submit">Enviar</button>
+        
+    </form>
+</body>
+
+</html>
