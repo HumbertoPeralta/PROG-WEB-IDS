@@ -18,3 +18,5 @@ CSS
 4 [04-ejercicio-formulario-con-estilos-pseudoelementos-pseudoclases](/04-ejercicio-formulario-con-estilos-pseudoelementos-pseudoclases/index.HTML)
 <br>
 5.[05-ejercicio-sitio-con-tarjetas-flex](/05-ejercicio-sitio-con-tarjetas-flex/index.HTML)
+<br>
+6.[06-ejercicio-variables-funciones](/06-ejercicio-variables-funciones/index.HTML)
