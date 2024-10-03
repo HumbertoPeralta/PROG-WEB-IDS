@@ -20,3 +20,5 @@ CSS
 5.[05-ejercicio-sitio-con-tarjetas-flex](/05-ejercicio-sitio-con-tarjetas-flex/index.HTML)
 <br>
 6.[06-ejercicio-variables-funciones](/06-ejercicio-variables-funciones/index.HTML)
+<br>
+7.[07-ejercicio-css-grid](/07-ejercicio-css-grid/index.HTML)
