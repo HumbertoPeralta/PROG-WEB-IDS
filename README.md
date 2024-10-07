@@ -22,3 +22,5 @@ CSS
 6.[06-ejercicio-variables-funciones](/06-ejercicio-variables-funciones/index.HTML)
 <br>
 7.[07-ejercicio-css-grid](/07-ejercicio-css-grid/index.HTML)
+<br>
+8.[08-ejercicio-sitio-responsivo](/08-ejercicio-sitio-responsivo/index.HTML)
