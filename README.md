@@ -25,4 +25,4 @@ CSS
 <br>
 8.[08-ejercicio-sitio-responsivo](/08-ejercicio-sitio-responsivo/index.HTML)
 <br>
-9.[Examen CSS](/Examen%20CSS/index.HTML)
+9.[Examen-CSS](/examen-CSS/index.HTML)
