@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>comprar</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Hombre
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Sudaderas</a></li>
+                      <li><a class="dropdown-item" href="#">Playeras</a></li>
+                      <li><a class="dropdown-item" href="#">Pantalones</a></li>
+                      <li><a class="dropdown-item" href="#">Camisas</a></li>
+                      <li><a class="dropdown-item" href="#">Tenis</a></li>
+
+                    </ul>
+                  </li>
+                </ul>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                      <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Mujer
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Sudaderas</a></li>
+                        <li><a class="dropdown-item" href="#">Playeras</a></li>
+                        <li><a class="dropdown-item" href="#">Pantalones</a></li>
+                        <li><a class="dropdown-item" href="#">Camisas</a></li>
+                        <li><a class="dropdown-item" href="#">Tenis</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+
+        <a class="logo" href="index.HTML"> AESTETIK </a>
+
+        <div class="buscador">
+            <input type="text" placeholder="Buscar...">
+        </div>
+
+    </header>
+
+    <div class="container">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="main-image">
+                    <img src="img\playera-modelo.jpg"  alt="...">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="main-image">
+                    <img src="img\playera-negra.jpg" alt="...">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="main-image">
+                    <img src="img\playera-modelo-espalda.jpg"  alt="...">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+    
+        <div class="product-info">
+            <h1>Playera negra bordado</h1>
+            <div>
+                <span class="price">MXN 239.00</span>
+                <span class="original-price">MXN 349.00</span>
+            </div>
+    
+            <p>Modelo: 180 cm de altura y talla 40</p>
+    
+            <div class="size-selection">
+                <label for="talla">Talla</label>
+                <select id="talla" name="talla">
+                    <option value="">Seleccionar talla</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+        
+            <div class="d-grid gap-2">
+                <button type="button" class="btn btn-success btn-lg">Añadir a mi carrito</button>
+                <button type="button" class="btn btn-outline-success btn-lg">Comprar</button>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
