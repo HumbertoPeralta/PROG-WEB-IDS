@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+.calculadora, .historial {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.operacion {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+    text-align: left;
+}
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.botones button {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+.botones button:hover {
+    background-color: #0056b3;
+}
+.historial {
+    width: 200px;
+}
+.historial h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.historial p {
+    margin: 0;
+    padding: 5px 0;
+}
+.error {
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+}

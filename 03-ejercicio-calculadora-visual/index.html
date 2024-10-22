@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora con Historial</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculadora">
+            <input type="text" class="operacion" id="operacion" disabled>
+            <div class="botones">
+                <button onclick="appendNumber('7')">7</button>
+                <button onclick="appendNumber('8')">8</button>
+                <button onclick="appendNumber('9')">9</button>
+                <button onclick="operation('/')">/</button>
+                <button onclick="appendNumber('4')">4</button>
+                <button onclick="appendNumber('5')">5</button>
+                <button onclick="appendNumber('6')">6</button>
+                <button onclick="operation('*')">*</button>
+                <button onclick="appendNumber('1')">1</button>
+                <button onclick="appendNumber('2')">2</button>
+                <button onclick="appendNumber('3')">3</button>
+                <button onclick="operation('-')">-</button>
+                <button onclick="appendNumber('0')">0</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="clearDisplay()">C</button>
+                <button onclick="operation('+')">+</button>
+            </div>
+            <div id="error" class="error"></div>
+        </div>
+    
+        <div class="historial">
+            <h2>Historial de cálculos</h2>
+            <div id="historial"></div>
+        </div>
+    </div>
+    
+    <script>
+        let operacion = document.getElementById('operacion');
+        let historial = document.getElementById('historial');
+        let errorOperacion = document.getElementById('error');
+        let operacionActual = '';
+        let historialCalculadora = [];
+    
+        function appendNumber(numero) {
+            if (operacion.value === '0') {
+                operacion.value = numero;
+            } else {
+                operacion.value += numero;
+            }
+            operacionActual += numero;
+            errorOperacion.innerText = ''; 
+        }
+    
+        function operation(op) {
+            operacion.value += ` ${op} `;
+            operacionActual += op;
+            errorOperacion.innerText = ''; 
+        }
+    
+        function calculate() {
+            try {
+                let resultado = eval(operacionActual);
+                if (isNaN(resultado) || !isFinite(resultado)) {
+                    throw new Error('Operación inválida');
+                }
+                operacion.value = resultado;
+                historialCalculadora.push(`${operacionActual} = ${resultado}`);
+                updatehistorial();
+                operacionActual = '' + resultado; 
+            } catch (error) {
+                errorOperacion.innerText = 'Error: Operación no válida';
+                operacion.value = '0';
+                operacionActual = '';
+            }
+        }
+    
+        function clearDisplay() {
+            operacion.value = '0';
+            operacionActual = '';
+            errorOperacion.innerText = ''; 
+        }
+    
+        function updatehistorial() {
+            historial.innerHTML = '';
+            historialCalculadora.forEach(calc => {
+                let p = document.createElement('p');
+                p.innerText = calc;
+                historial.appendChild(p);
+            });
+        }
+    </script>
+</body>
+</html>
