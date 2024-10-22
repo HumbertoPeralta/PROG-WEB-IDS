@@ -30,3 +30,7 @@ CSS
 JavaScript
 <br>
 1.[01-ejercicio-calculadora](/01-ejercicio-calculadora/index.HTML)
+<br>
+2.
+<br>
+3.[03-ejercicio-calculadora-visual](/03-ejercicio-calculadora-visual/index.html)
