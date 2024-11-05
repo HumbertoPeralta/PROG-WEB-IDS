@@ -35,4 +35,8 @@ JavaScript
 <br>
 3.[03-ejercicio-calculadora-visual](/03-ejercicio-calculadora-visual/index.html)
 <br>
-4.[04-ejercicio-lista-de-tareas/index.html](/04-ejercicio-lista-de-tareas/index.html)
+4.[04-ejercicio-lista-de-tareas](/04-ejercicio-lista-de-tareas/index.html)
+<br>
+5.
+<br>
+6.[06-ejercicio-modulos](/06-ejercicio-modulos/index.html)
