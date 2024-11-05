@@ -31,12 +31,12 @@ JavaScript
 <br>
 1.[01-ejercicio-calculadora](/01-ejercicio-calculadora/index.HTML)
 <br>
-2.[02-ejercicio-manipulacion-de-estilos/index.html](/02-ejercicio-manipulacion-de-estilos/index.html)
+2.[02-ejercicio-manipulacion-de-estilos](/02-ejercicio-manipulacion-de-estilos/index.html)
 <br>
 3.[03-ejercicio-calculadora-visual](/03-ejercicio-calculadora-visual/index.html)
 <br>
 4.[04-ejercicio-lista-de-tareas](/04-ejercicio-lista-de-tareas/index.html)
 <br>
-5.[05-ejercicio-tarjeta-gato/index.html](/05-ejercicio-tarjeta-gato/index.html)
+5.[05-ejercicio-tarjeta-gato](/05-ejercicio-tarjeta-gato/index.html)
 <br>
 6.[06-ejercicio-modulos](/06-ejercicio-modulos/index.html)
